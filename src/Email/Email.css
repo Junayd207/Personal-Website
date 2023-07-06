@@ -1,0 +1,68 @@
+.email-container{
+    margin-top:auto;
+    width:100%;
+}
+
+.email-thanks{
+    text-align:center;
+}
+
+.email-title{
+    font-size:2rem;
+    margin: 0 3rem;
+}
+
+.form-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width:calc(100% - 6rem);
+    margin:1rem 3rem;
+}
+
+.form-text{
+    font-size:1.5rem;
+}
+
+.input-field{
+    resize:none;
+    border:none;
+    border-radius:0.2rem;
+    padding:0.2rem;
+    margin: 0.2rem 0;
+    font-family:"poppins";
+    font-size:1.5rem;
+}
+
+.submit-button{
+    border:none;
+    background:white;
+    border-radius:0.2rem;
+    padding:0.5rem;
+    margin: 1rem 0;
+    font-family:"poppins";
+    cursor: pointer;
+    font-size:1.5rem;
+}
+
+
+
+@media (max-width:768px){
+    .email-container{
+        margin-top:1rem;
+    }
+
+    .email-title{
+        margin: 0 2rem;
+        font-size:1.5rem;
+    }
+
+    .form-container{
+        margin: 1rem 2rem;
+        width:calc(100% - 4rem);
+    }
+
+    .form-text, .input-field, .submit-button{
+        font-size:1rem;
+    }
+}

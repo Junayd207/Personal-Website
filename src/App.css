@@ -1,0 +1,12 @@
+.main-content{
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    font-family: "poppins";
+}

@@ -1,0 +1,38 @@
+.header-container{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:calc(100vw - 2rem);
+    height:2rem;
+    z-index:100;
+    position:absolute;
+    top:0;
+    padding:1.5rem;
+    background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.header-contact{
+    margin-left:1rem;
+}
+
+.header-email{
+    margin-left:auto;
+}
+
+.header-text{
+    margin:0;
+    font-size:2rem;
+}
+
+@media (max-width:668px){
+    .header-text{
+        font-size:1.4rem;
+    }
+}
+
+@media (max-width:448px){
+    .header-text{
+        font-size:1rem;
+    }
+}
+
