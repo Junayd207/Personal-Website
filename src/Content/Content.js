@@ -25,10 +25,10 @@ export default function Content() {
                 <div className="left-sidebar">
                     <h1 className="title-text">Hey, I'm <br/>Junayd</h1>
                     <div className="icons-container">
-                        <a className="link" href="https://www.youtube.com/" target="_blank">                    
+                        <a className="link" href="https://github.com/Junayd207/" target="_blank">                    
                             <BsGithub/>
                         </a>   
-                        <a className="link" href="https://www.youtube.com/" target="_blank">
+                        <a className="link" href="http://www.linkedin.com/in/junayd-hussain-32392b214/" target="_blank">
                             <BsLinkedin/>
                         </a>    
                     </div>
