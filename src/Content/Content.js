@@ -11,10 +11,12 @@ import Email from "../Email/Email"
 export default function Content() {
     const projectElements = Data.map(data => (
         <div className="project-container" key={data.id}>
-            <h1 className="project-title">{data.title}</h1>
+            <div className="display-flex-apart">
+                <h1 className="project-title">{data.title}</h1>
+                <a className="project-url" target="_blank" href={data.url}>Link</a>
+            </div>
             <img className="project-image" src={data.src}/>
             <p className="project-description">{data.description}</p>
-            <a className="project-url" target="_blank" href={data.url}>Link</a>
         </div>
     ))
 

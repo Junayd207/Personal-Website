@@ -1,3 +1,4 @@
+import businessAppImg from "./Images/business_app.jpg"
 import financeAppImg from "./Images/finance_app.jpg"
 import socialAppImg from "./Images/social_media_app.jpg"
 import eCommerceImg from "./Images/e-commerce.jpg"
@@ -5,14 +6,23 @@ import quizImg from "./Images/quiz.jpg"
 import memeGeneratorImg from "./Images/meme-generator.jpg"
 import magic8BallImg from "./Images/magic-8-ball.jpg"
 
-
 const data = [
+    {
+        id:0,
+        src: businessAppImg,
+        url: "https://junayd207.bsite.net/",
+        title: "Business Finance Application",
+        description: ".Net application that lets businesses track and manage inflows and expenses and create their own categories " +
+                    "to seperate transactions. The app uses an SQL databse to store the different categories and transactions " +
+                    "and implements data visualisation to see the past weeks finanace in/outgoings and see where money is being " +
+                    "spent in a pie chart. " 
+    },
     {
         id:1,
         src: financeAppImg,
         url: "https://finance-app-jun207.netlify.app/",
-        title: "Finance Management Application",
-        description: "Application that lets you monitor and track your spending into categories, view analytics based " +
+        title: "Personal Finance Application",
+        description: "React application that lets you monitor and track your spending into categories, view analytics based " +
                     "on your transactions and make investment related decisions. Filter and view historical transactions " +
                     "in detail and using a machine learning algorithm, creates a forecast on your investment portfolios " +
                     "potential future returns. Can view live prices of investment assets and past price action from API data. " +

@@ -99,12 +99,19 @@
 .project-url{
     color:white;
     margin: 0.5rem;
-    margin-right:auto;
+    margin-left:auto;
     font-family: monospace;
+    font-size: 1.5rem;
 }
 
 .empty-div{
     height:1rem;
+}
+
+.display-flex-apart{
+    width:100%;
+    display:flex;
+    align-items: space-between;
 }
 
 @media (max-width:840px){

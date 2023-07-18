@@ -1,3 +1,9 @@
+### Information
+
+-React application showcasing personal projects
+-Contains links to Github and LinkedIn
+-Email form to get in touch
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
