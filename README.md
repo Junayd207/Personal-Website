@@ -1,8 +1,8 @@
 ### Information
 
--React application showcasing personal projects
--Contains links to Github and LinkedIn
--Email form to get in touch
+- React application showcasing personal projects
+- Contains links to Github and LinkedIn
+- Email form to get in touch
 
 # Getting Started with Create React App
 
