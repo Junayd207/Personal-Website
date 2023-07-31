@@ -1,6 +1,7 @@
-import businessAppImg from "./Images/business_app.jpg"
-import financeAppImg from "./Images/finance_app.jpg"
-import socialAppImg from "./Images/social_media_app.jpg"
+import inventoryAppImg from "./Images/inventory-app.jpg"
+import businessAppImg from "./Images/business-app.jpg"
+import financeAppImg from "./Images/finance-app.jpg"
+import socialAppImg from "./Images/social-media-app.jpg"
 import eCommerceImg from "./Images/e-commerce.jpg"
 import quizImg from "./Images/quiz.jpg"
 import memeGeneratorImg from "./Images/meme-generator.jpg"
@@ -9,16 +10,25 @@ import magic8BallImg from "./Images/magic-8-ball.jpg"
 const data = [
     {
         id:0,
+        src: inventoryAppImg,
+        url: "https://junayd208.bsite.net/",
+        title: "Inventory Management Application",
+        description: "ASP.Net application that lets businesses track and manage product inventory and create their own categories " +
+                    "to seperate products. The app uses an SQL databse to store the different categories and products " +
+                    "and then calculates relevent financial statistics on inventory products. " 
+    },
+    {
+        id:1,
         src: businessAppImg,
         url: "https://junayd207.bsite.net/",
         title: "Business Finance Application",
-        description: ".Net application that lets businesses track and manage inflows and expenses and create their own categories " +
+        description: "ASP.Net application that lets businesses track and manage inflows and expenses and create their own categories " +
                     "to seperate transactions. The app uses an SQL databse to store the different categories and transactions " +
                     "and implements data visualisation to see the past weeks finanace in/outgoings and see where money is being " +
                     "spent in a pie chart. " 
     },
     {
-        id:1,
+        id:2,
         src: financeAppImg,
         url: "https://finance-app-jun207.netlify.app/",
         title: "Personal Finance Application",
@@ -29,7 +39,7 @@ const data = [
                     "Has multi-currency support and user authentication to save user data in database and keep it secure." 
     },
     {
-        id:2,
+        id:3,
         src: socialAppImg,
         url: "https://social-media-app-jun207.netlify.app/",
         title: "Social Media Application",
@@ -39,7 +49,7 @@ const data = [
                     "and view all the posts they have made on the app."
     },
     {
-        id:3,
+        id:4,
         src: eCommerceImg,
         url: "https://ecommerce-jun207.netlify.app/",
         title: "E-Commerce Website",
@@ -48,7 +58,7 @@ const data = [
                     "maintained using React Context API when changing pages."
     },
     {
-        id:4,
+        id:5,
         src: quizImg,
         url: "https://quizmaster-jun207.netlify.app/",
         title: "QuizMaster",
@@ -57,7 +67,7 @@ const data = [
                     "the questions they got right and wrong."
     },
     {
-        id:5,
+        id:6,
         src: memeGeneratorImg,
         url: "https://meme-generator-jun207.netlify.app/",
         title: "Meme Generator",
@@ -65,7 +75,7 @@ const data = [
                     "user to customise the header and footer text to create their own memes and has download functionality."
     },
     {
-        id:6,
+        id:7,
         src: magic8BallImg,
         url: "https://magic-8-ball-jun207.netlify.app/",
         title: "Magic 8 Ball",
